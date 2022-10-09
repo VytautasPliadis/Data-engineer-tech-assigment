@@ -1,0 +1,131 @@
+{
+    "creation_metadata": {
+        "local_time": "2022-10-09 14:14:45",
+        "utc_time": "2022-10-09 11:11:45",
+        "creator": "TDDA 2.0.01",
+        "host": "DESKTOP-VUP90T9",
+        "user": "Vytautas",
+        "n_records": 6405008,
+        "n_selected": 6405008
+    },
+    "fields": {
+        "VendorID": {
+            "type": "int",
+            "min": 1,
+            "max": 2,
+            "sign": "positive",
+            "max_nulls": 0
+        },
+        "tpep_pickup_datetime": {
+            "type": "string",
+            "min_length": 19,
+            "max_length": 19,
+            "max_nulls": 0
+        },
+        "tpep_dropoff_datetime": {
+            "type": "string",
+            "min_length": 19,
+            "max_length": 19,
+            "max_nulls": 0
+        },
+        "passenger_count": {
+            "type": "real",
+            "min": 0.0,
+            "max": 9.0,
+            "max_nulls": 0
+        },
+        "trip_distance": {
+            "type": "real",
+            "min": 0,
+            "max": 210240.07,
+            "max_nulls": 0
+        },
+        "RatecodeID": {
+            "type": "real",
+            "min": 1,
+            "max": 6,
+            "max_nulls": 0
+        },
+        "store_and_fwd_flag": {
+            "type": "string",
+            "min_length": 1,
+            "max_length": 1,
+            "allowed_values": [
+                "N",
+                "Y"
+            ]
+        },
+        "PULocationID": {
+            "type": "int",
+            "min": 1,
+            "max": 265,
+            "sign": "positive",
+            "max_nulls": 0
+        },
+        "DOLocationID": {
+            "type": "int",
+            "min": 1,
+            "max": 265,
+            "sign": "positive",
+            "max_nulls": 0
+        },
+        "payment_type": {
+            "type": "int",
+            "min": 1,
+            "max": 6,
+            "sign": "non-negative",
+            "max_nulls": 0
+        },
+        "fare_amount": {
+            "type": "real",
+            "min": 0,
+            "max": 4265.0,
+            "max_nulls": 0
+        },
+        "extra": {
+            "type": "real",
+            "min": 0,
+            "max": 113.01,
+            "max_nulls": 0
+        },
+        "mta_tax": {
+            "type": "real",
+            "min": 0,
+            "max": 30.8,
+            "max_nulls": 0
+        },
+        "tip_amount": {
+            "type": "real",
+            "min": 0,
+            "max": 1100.0,
+            "max_nulls": 0
+        },
+        "tolls_amount": {
+            "type": "real",
+            "min": 0,
+            "max": 910.5,
+            "max_nulls": 0
+        },
+        "improvement_surcharge": {
+            "type": "real",
+            "min": 0,
+            "max": 0.3
+        },
+        "total_amount": {
+            "type": "real",
+            "min": 0,
+            "max": 4268.3,
+            "max_nulls": 0
+        },
+        "congestion_surcharge": {
+            "type": "real",
+            "min": 0,
+            "max": 2.75
+        },
+        "airport_fee": {
+            "type": "real",
+            "min": 0
+
+        }
+    }
+}
