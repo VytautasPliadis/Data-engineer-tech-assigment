@@ -6,7 +6,7 @@
 
 ## Dataset
 - [2020 January Yellow Taxi Trip Records (parquet).](https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2020-01.parquet)
-- To convert .parquet file to .csv please use `00 Convert parquet to csv.py` script.
+- To convert .parquet file to .csv please use `00 Convert parquet to csv.py` script and move into `raw_data` directory
 
 ## Directory
 - `code`: Contains scripts for assignment
