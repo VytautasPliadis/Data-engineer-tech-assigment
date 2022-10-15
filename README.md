@@ -1,4 +1,4 @@
-# Vytautas Pliadis Beyond Analysis - Technical assignment - 2022-10-09
+# Beyond Analysis - Technical assignment - 2022-10-09
  
 ## Dependencies
 - Language: Python 3.10.2
